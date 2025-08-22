@@ -535,6 +535,8 @@ describe SettingsPresenter do
         saved_card: nil,
         formatted_balance_to_forfeit: nil,
         payouts_paused_internally: false,
+        payouts_paused_by: nil,
+        payouts_paused_for_reason: nil,
         payouts_paused_by_user: false,
         payout_threshold_cents: 1000,
         minimum_payout_threshold_cents: 1000,
